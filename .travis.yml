@@ -1,6 +1,10 @@
 language: node_js
 node_js:
   - "0.10"
+before_install:
+  - "echo 'America/Phoenix' | sudo tee /etc/timezone"
+  - "sudo dpkg-reconfigure --frontend noninteractive tzdata"
+  - "sudo ntpdate ntp.ubuntu.com"
 notifications:
   email:
     on_success: "never"

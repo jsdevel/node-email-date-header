@@ -1,5 +1,5 @@
-# node-email-date-header [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url]
-> Creates an RFC compliant date header.
+# email-date-header [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url]
+> Creates an RFC compliant email date header.
 
 ## Example
 ```javascript

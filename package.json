@@ -2,7 +2,7 @@
   "name": "node-email-date-header",
   "main": "lib/node-email-date-header.js",
   "version": "0.0.0",
-  "description": "Creates an RFC compliant date header.",
+  "description": "Creates an RFC compliant email date header.",
   "author": "Joseph Spencer",
   "scripts": {
     "pretest": "jshint index.js && jshint --config ./test/.jshintrc test",
@@ -12,7 +12,11 @@
     "type": "git",
     "url": "https://github.com/jsdevel/node-email-date-header.git"
   },
-  "keywords": [],
+  "keywords": [
+    "email",
+    "date",
+    "header"
+  ],
   "contributors": [],
   "license": "MIT",
   "bugs": {

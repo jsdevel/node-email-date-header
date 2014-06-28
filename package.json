@@ -1,6 +1,6 @@
 {
-  "name": "node-email-date-header",
-  "main": "lib/node-email-date-header.js",
+  "name": "email-date-header",
+  "main": "./index.js",
   "version": "0.0.0",
   "description": "Creates an RFC compliant email date header.",
   "author": "Joseph Spencer",
